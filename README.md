@@ -6,6 +6,7 @@
 git clone https://github.com/SUDS-CMU/github-workshop.git
 ```
 
+Making changes to master
 ```sh
 cd github-workshop
 touch newfile.txt
@@ -14,6 +15,7 @@ git commit -m "added newfile.txt"
 git push origin master
 ```
 
+Creating a new branch
 ```sh
 git checkout -b new-branch
 git push origin new-branch
